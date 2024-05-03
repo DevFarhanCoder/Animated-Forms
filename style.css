@@ -5,7 +5,7 @@ body, html {
 }
 
 .bg-image {
-    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/04/Abstract-Website-Background.jpg');
+    background-image: url('bg.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
