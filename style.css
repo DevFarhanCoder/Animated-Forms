@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.signup-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: black;
+    color: white;
+    font-size: 43px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .signup-button {
+        font-size: 14px;
+    }
+}
